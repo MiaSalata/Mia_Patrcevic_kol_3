@@ -1,0 +1,90 @@
+@charset "utf-8";
+@font-face {
+	font-family: MiaPatrcevic;
+	src:url("MiaPatrcevic.ttf");
+}
+.menu li{
+	display: inline;
+}
+.menu{
+	padding:60px; 
+	margin-left: auto; 
+	margin-right:auto;  
+	width: 600px;
+}
+.menu li{
+	background-color:Maroon;
+			padding:40px;
+			border: 2px solid Salmon;
+}
+.menu li:active {background-color:	CornflowerBlue;}
+		
+	.menu li a {	color:Salmon; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	.menu li a:link {text-decoration:none;}
+	.menu li a:hover {text-decoration:underline;}
+	
+	</style>
+	
+h1 {
+	font-family: MiaPatrcevic;
+}
+.paragraf_1 {
+	color: black;
+	font-size: 25px;
+	background-color: pink;
+	line-height:40px;
+	width: cover;
+	background-color: pink;
+	padding: 50px;	
+	list-style-position: center;
+}
+.p1 {
+	color: maroon;
+	font-size: 30px;
+	text-align: center;
+}
+.pozadina{
+	background-image: url("JamesWebb.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.o_meni{
+	color: white;
+}
+.paragraf_2{
+	color: black;
+	font-size: 20px;
+	background-color: pink;
+	line-height: 40px;
+	width: cover;
+	display: inline-block;
+	text-align: center;
+}
+.h2{
+	color: DarkBlue;
+}
+.blok1{
+	background-color: lightblue;
+	line-height: 30px;
+	width: cover;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+.blok2{
+	background-color: pink;
+	font-size: 20px;
+	text-align: center;
+	color: darkolive;
+}
+.blok3{
+	background-color: pink;
+}
+.vjezbe{
+	color: black;
+}
